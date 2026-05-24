@@ -242,6 +242,6 @@ This project is developed as part of a TCS training task, academic learning acti
 
 If you like this project, give it a ⭐ on GitHub!
 
-Repository: https://github.com/pratiksdashore/TCS-ResuMindAid
+Repository: https://github.com/pratiksdashore/TCS-ResuMindAi
 
 ---
