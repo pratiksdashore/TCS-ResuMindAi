@@ -1,71 +1,84 @@
 # ResuMindAI ☁️📄
 
-### 🌐 Live Demo
-🚀 **Website:** https://d38oj2guvoo120.cloudfront.net
-
 ResuMindAI is a Cloud-Enabled AI-powered resume analysis and ATS optimization platform designed to help candidates improve resumes through intelligent job matching, semantic analysis, ATS scoring, and AI-driven recommendations using scalable cloud architecture and modern NLP technologies.
 
 ---
 
 ## 🚀 Features
 
-- 📄 Resume Upload & Parsing
-- 🤖 AI-Powered Resume Analysis
-- 🎯 Intelligent Job Description Matching
-- 📊 ATS Compatibility Scoring
-- 🧠 Smart Skill Gap Detection
-- ✨ AI-Based Resume Suggestions
-- 🔍 Keyword Optimization Engine
-- 📈 Resume Match Percentage Calculation
-- 🌐 Modern Responsive User Interface
-- 🔐 Secure Backend APIs
-- ☁️ Cloud Deployment Ready Architecture
-- ⚡ Fast & Scalable Processing Workflow
+* 📄 Resume Upload & Parsing
+* 🤖 AI-Powered Resume Analysis
+* 🎯 Intelligent Job Description Matching
+* 📊 ATS Compatibility Scoring
+* 🧠 Smart Skill Gap Detection
+* ✨ AI-Based Resume Suggestions
+* 🔍 Keyword Optimization Engine
+* 📈 Resume Match Percentage Calculation
+* 🌐 Modern Responsive User Interface
+* 🔐 Secure Backend APIs
+* ☁️ Cloud Deployment Architecture
+* ⚡ Fast & Scalable Processing Workflow
 
 ---
 
 ## ☁️ Cloud-Focused Architecture
 
-This project is designed around cloud computing principles to ensure scalability, availability, security, and efficient AI-powered processing.
+The project was deployed on AWS using cloud infrastructure for application hosting, storage, and content delivery.
 
-### AWS Services Used / Planned
+### AWS Services Used
 
-- **Amazon EC2** → Application Hosting
-- **Amazon S3** → Resume & Static File Storage
-- **Amazon RDS** → Managed Relational Database
-- **AWS IAM** → Identity & Access Management
-- **AWS VPC** → Secure Network Isolation
-- **Amazon CloudWatch** → Monitoring & Logging
-- **AWS Lambda** → Serverless AI Processing (Planned)
-- **Amazon CloudFront** → Global Content Delivery (Planned)
+* **Amazon EC2** → Backend application hosting
+* **Amazon S3** → Frontend static hosting and file storage
+* **Amazon CloudFront** → Content delivery and optimized frontend access
+* **AWS IAM** → Identity and access management
+* **AWS VPC** → Secure network infrastructure
+* **Amazon CloudWatch** → Monitoring and logging
+
+### AWS Services Planned / Future Enhancements
+
+* **Application Load Balancer (ALB)** → Traffic distribution and application load balancing
+* **EC2 Auto Scaling** → Automatic scaling based on application demand
+* **Amazon Route 53** → Custom domain and DNS management
+* **AWS Certificate Manager (ACM)** → SSL/TLS certificate management
+* **Amazon RDS** → Managed relational database
+* **AWS Lambda** → Serverless processing and event-driven workloads
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- Vite
-- Tailwind CSS
-- JavaScript
+
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript
 
 ### Backend
-- Python
-- Flask / FastAPI
-- REST APIs
+
+* Python
+* Flask / FastAPI
+* REST APIs
 
 ### AI / NLP
-- Gemini API / OpenAI
-- Resume Parsing Engine
-- Semantic Matching
-- NLP-Based Resume Analysis
-- ATS Optimization Logic
+
+* Gemini API / OpenAI
+* Resume Parsing Engine
+* Semantic Matching
+* NLP-Based Resume Analysis
+* ATS Optimization Logic
 
 ### Cloud & DevOps
-- AWS Cloud Services
-- Git & GitHub
-- Vercel Deployment
-- CI/CD Workflow
+
+* AWS Cloud Services
+* Amazon EC2
+* Amazon S3
+* Amazon CloudFront
+* AWS IAM
+* AWS VPC
+* Amazon CloudWatch
+* Git & GitHub
+* CI/CD Workflow
 
 ---
 
@@ -76,15 +89,15 @@ TCS-ResuMindAI/
 │
 ├── Backend/                 # Python backend APIs
 │
-├── Documents and Videos/   # Project reports & demo assets
+├── Documents and Videos/    # Project reports & demo assets
 │
-├── frontend/               # React frontend application
+├── frontend/                # React frontend application
 │
-├── .gitignore              # Git ignored files
+├── .gitignore               # Git ignored files
 │
-├── run_backend.ps1         # Backend startup script
+├── run_backend.ps1          # Backend startup script
 │
-└── README.md               # Project documentation
+└── README.md                # Project documentation
 ```
 
 ---
@@ -167,55 +180,85 @@ http://localhost:5000
 1. Upload Resume (PDF/DOCX)
 2. Paste Job Description
 3. AI Engine Performs:
-   - Resume Parsing
-   - Skill Extraction
-   - ATS Keyword Analysis
-   - Semantic Matching
-   - Missing Skill Detection
+
+   * Resume Parsing
+   * Skill Extraction
+   * ATS Keyword Analysis
+   * Semantic Matching
+   * Missing Skill Detection
 4. Generate:
-   - ATS Score
-   - Resume Match Percentage
-   - AI-Based Suggestions
-   - Skill Improvement Insights
+
+   * ATS Score
+   * Resume Match Percentage
+   * AI-Based Suggestions
+   * Skill Improvement Insights
 
 ---
 
 ## 🔒 Security Features
 
-- Secure API Architecture
-- Protected Backend Endpoints
-- Secure File Upload Handling
-- Input Validation & Error Handling
-- Role-Based Access Control
-- Cloud Security Best Practices
+* Secure API Architecture
+* Protected Backend Endpoints
+* Secure File Upload Handling
+* Input Validation & Error Handling
+* Role-Based Access Control
+* AWS IAM-Based Access Control
+* AWS VPC Network Isolation
+* Cloud Security Best Practices
 
 ---
 
 ## 🚀 Deployment
 
-The platform is designed for scalable cloud deployment using modern cloud-native practices and AI-powered backend processing.
+The platform was deployed and tested using AWS cloud infrastructure.
 
-### Deployment Highlights
+### Deployment Architecture
 
-- Cloud-Ready Scalable Architecture
-- AI-Powered Backend Workflow
-- Optimized Frontend Delivery
-- Secure Resume File Handling
-- Monitoring & Logging Support
-- High Availability Design
+* **Amazon S3** → Hosted the React frontend and static assets
+* **Amazon CloudFront** → Distributed frontend content through AWS edge locations
+* **Amazon EC2** → Hosted the backend application
+* **AWS IAM** → Managed AWS access and permissions
+* **AWS VPC** → Provided the underlying network infrastructure
+* **Amazon CloudWatch** → Supported monitoring and logging
+
+The AWS deployment resources are currently not running to avoid ongoing infrastructure costs. The application can be redeployed using the project's AWS architecture and configuration.
+
+### Future Cloud Infrastructure
+
+The architecture can be further extended using:
+
+* **Application Load Balancer (ALB)**
+* **EC2 Auto Scaling**
+* **Amazon Route 53**
+* **AWS Certificate Manager (ACM)**
+* **Amazon RDS**
+* **AWS Lambda**
+
+This would provide a more scalable and production-oriented cloud architecture.
 
 ---
 
 ## 🚀 Future Enhancements
 
-- 🤖 AI Resume Rewriting
-- 📊 Multi-Resume Comparison
-- 💼 Smart Job Recommendation Engine
-- 🔗 LinkedIn Profile Analysis
-- 🎤 AI Interview Question Generator
-- 📄 PDF Report Export
-- 📈 Real-Time Career Insights
-- ⚡ Serverless AI Infrastructure
+### ☁️ Cloud & Infrastructure
+
+* Application Load Balancer (ALB)
+* EC2 Auto Scaling
+* Amazon Route 53 Custom Domain
+* AWS Certificate Manager (ACM)
+* Amazon RDS Integration
+* Serverless Processing with AWS Lambda
+* Enhanced CloudWatch Monitoring
+
+### 🤖 AI & Platform
+
+* AI Resume Rewriting
+* Multi-Resume Comparison
+* Smart Job Recommendation Engine
+* LinkedIn Profile Analysis
+* AI Interview Question Generator
+* PDF Report Export
+* Real-Time Career Insights
 
 ---
 
@@ -225,10 +268,10 @@ The objective of ResuMindAI is to leverage Artificial Intelligence, NLP, and Clo
 
 ---
 
-##  ☁️ Cloud Deployment & 👨‍💻 Infrastructure Management By
+## ☁️ Cloud Deployment & 👨‍💻 Infrastructure Management By
 
-**Pratik Dashore**  
-Cloud & AI-Focused Engineering Project
+**Pratik Dashore**
+Cloud & DevOps Engineer
 
 ---
 
